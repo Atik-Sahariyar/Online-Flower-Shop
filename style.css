@@ -1,0 +1,28 @@
+/* This is universal style */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* This is header section styles */
+.header-container{
+    width: auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.left-side-container{
+    margin: 100px;
+}
+.right-side-container{
+    padding-top: 30px;
+    padding-right: 80px;
+
+}
+.top-flower{
+    
+    width: 400px;
+    height: 600px;
+}
