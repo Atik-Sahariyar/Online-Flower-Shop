@@ -13,16 +13,210 @@
     align-items: center;
   
 }
-.left-side-container{
-    margin: 100px;
+.header-container .left-side-container{
+       width: 400px;
+       height: 350px;
+       margin-top: 40px;
+       margin-left: 40px;
+       text-align: left;
 }
-.right-side-container{
+.header-title{
+    font-size: 48px;
+}
+.header-description{
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn{
+    border: none;
+    color: white;
+    background-color: rgb(238, 23, 23);
+    padding: 10px 12px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(160, 55, 55);
+}
+.header-container .right-side-container{
     padding-top: 30px;
     padding-right: 80px;
 
 }
 .top-flower{
     
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 450px;
+}
+
+/* Main Section styles */
+
+.Flowers-section{
+    text-align: center;
+}
+.title{
+    margin-top: 60px;
+}
+.flower-description{
+    color: gray;
+}
+.flower-container{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.flower-1{
+    background-color: rgb(235, 227, 241);
+    width: 280px;
+    height: 350px;
+    padding-top: 30x;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-bottom: 15px;
+}
+.flower-2{
+    background-color: rgb(223, 241, 235);
+    width: 280px;
+    height: 350px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.flower-3{
+    background-color: azure;
+    width: 280px;
+    height: 350px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-bottom: 15px;
+}
+.flower-img{
+    width: 230x;
+    height: 300px;
+    margin-top: 40px;
+}
+
+/*Banner styles */
+
+.banners{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color:rgb(230, 223, 223) ;
+    margin-top: 60px;
+    width: 80%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+.banner{
+    width:30%;
+}
+.banner-icon{
+    width: 25%;
+}
+
+/* offer section styles */
+
+.offer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.left-side-container{
+    text-align: center;
+}
+.off{
+    color: rgb(238, 23, 23);
+}
+.left-side-container .heading{
+    margin-bottom: 20px;
+}
+.offer-description{
+    color: gray;
+}
+.rose{
+    width: 70%;
+    height: 70%;
+}
+
+.instagram-section{
+    text-align: center;
+}
+.instagram-section > h2{
+    margin-bottom: 15px;
+}
+.insta-description{
+    color: gray;
+}
+.images{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.insta-img{
+    width: 270px;
+    height: 340px;
+}
+
+/* deals-container styles */
+
+.deals-section{
+    display: flex;
+    justify-content: center;
+}
+.deals-container{
+    width:1000px;
+    height: 250px;
+    background-image: url('./images/Rectangle\ 9.png');
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.deals-container .d{
+    color: gray;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.input-email{
+     padding: 10px 20px 10px 5px;
+     border: none;
+    
+}
+
+/* Footer section styles */
+
+.footer-section{
+    height:220px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+.footer-container{
+    text-align: center;
+    display: inline;
+   
+    
+}
+.f-head{
+    margin: 50px 0px 20px 0px;
+    
+}
+.f-flower{
+    color: rgb(172, 19, 19);
+}
+.f-p{
+    color: gray;
+    margin: 20px
+    
 }
