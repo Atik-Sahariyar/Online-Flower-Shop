@@ -136,6 +136,8 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 80px;
+    padding: 40px;
+    background-color:rgb(252, 247, 244)
 }
 .left-side-container{
     text-align: center;
