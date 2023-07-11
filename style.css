@@ -64,26 +64,29 @@
 .flower-description{
     color: gray;
 }
+.flower{
+    padding: 0px;
+    margin: 0px;
+}
 .flower-container{
     display: flex;
-    gap:10px;
+    gap:15px;
     margin-top: 20px;
     justify-content: center;
 }
 .flower-1{
     background-color: rgb(235, 227, 241);
-    width: 280px;
-    height: 350px;
-    padding-top: 30x;
-    border-top-left-radius: 50%;
+    width: 270px;
+    height: 340px;
+    border-top-left-radius:  50%;
     border-top-right-radius: 50%;
     margin-bottom: 15px;
     padding-bottom: 0px;
 }
 .flower-2{
     background-color: rgb(223, 241, 235);
-    width: 280px;
-    height: 350px;
+    width: 270px;
+    height: 340px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     margin-bottom: 15px;
@@ -91,8 +94,8 @@
 
 .flower-3{
     background-color: azure;
-    width: 280px;
-    height: 350px;
+    width: 270px;
+    height: 340px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     margin-bottom: 15px;
@@ -174,7 +177,7 @@
 }
 .flower-photo{
     width: 180px;
-    height: 250px;
+    height: 240px;
 }
 .sales-buy{
     display: flex;
